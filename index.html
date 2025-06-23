@@ -1,104 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Architect My Project - Bem-vindo(a)!</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --cor-primaria: #007bff; /* Azul padrão */
-            --azul-marinho: #001f3f; /* Azul Marinho para detalhes */
-            --cinza-claro: #f8f9fa;
-            --cinza-medio: #e9ecef;
-            --texto-escuro: #343a40;
-            --sombra-caixa: rgba(0, 0, 0, 0.1);
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My Architect_My Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="assets/logo.png" alt="My Architect_My Project Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        body {
-            font-family: 'Montserrat', sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background: linear-gradient(135deg, var(--cinza-claro) 0%, var(--cinza-medio) 100%);
-            margin: 0;
-            color: var(--texto-escuro);
-        }
+  <main>
+    <section class="hero">
+      <h1>Bem-vindo ao My Architect_My Project</h1>
+      <p>Ferramentas de auxílio para arquitetos e engenheiros civis. Encontre modelos de projetos prontos para clientes.</p>
+    </section>
 
-        .container {
-            background-color: #fff;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 8px 25px var(--sombra-caixa);
-            text-align: center;
-            width: 450px;
-            max-width: 90%;
-            transition: transform 0.3s ease-in-out;
-        }
+    <section class="services">
+      <h2>Serviços</h2>
+      <div class="service">
+        <h3>Arquitetos</h3>
+        <p>Acesse modelos de projetos e ferramentas específicas para arquitetos.</p>
+      </div>
+      <div class="service">
+        <h3>Engenheiros Civis</h3>
+        <p>Encontre soluções práticas e ferramentas para engenheiros civis.</p>
+      </div>
+      <div class="service">
+        <h3>Clientes</h3>
+        <p>Explore projetos prontos e escolha o que melhor se adequa às suas necessidades.</p>
+      </div>
+    </section>
+  </main>
 
-        .container:hover {
-            transform: translateY(-5px);
-        }
-
-        .logo {
-            margin-bottom: 30px;
-        }
-
-        .logo img {
-            max-width: 180px; /* Ajuste o tamanho da sua logo */
-            height: auto;
-            border-radius: 8px; /* Borda levemente arredondada para a logo, se desejar */
-        }
-
-        h1 {
-            color: var(--azul-marinho);
-            margin-bottom: 30px;
-            font-size: 2.2em;
-            font-weight: 700;
-        }
-
-        .btn-group {
-            display: flex;
-            justify-content: center;
-            gap: 20px; /* Espaço entre os botões */
-            margin-bottom: 30px;
-        }
-
-        .btn {
-            background-color: var(--azul-marinho);
-            color: white;
-            padding: 14px 30px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 1.1em;
-            font-weight: 600;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-            box-shadow: 0 4px 10px rgba(0, 31, 63, 0.2); /* Sombra mais intensa para botões */
-        }
-
-        .btn:hover {
-            background-color: #003366; /* Um azul marinho um pouco mais escuro */
-            transform: translateY(-2px);
-        }
-
-        .form-section {
-            margin-top: 25px;
-            padding-top: 25px;
-            border-top: 1px solid var(--cinza-medio);
-            display: none; /* Escondido por padrão */
-            text-align: left;
-        }
-
-        .form-section h2 {
-            color: var(--azul-marinho);
-            font-size: 1.6em;
-            margin-bottom: 20px;
-            text-align: center;
-            font-weight: 600;
-        }
-
-        .form-group {
-            margin-bottom: 20px;
-        }
+  <footer>
+    <p>Endereço: Avenida Arapongas n 150 - Arapongas-PR, CEP 86700100</p>
+  </footer>
+</body>
+</html>
