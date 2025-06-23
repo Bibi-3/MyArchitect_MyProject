@@ -1,0 +1,88 @@
+/* Resetando algumas configurações básicas */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #003366; /* Azul marinho */
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  text-align: center;
+}
+
+.service {
+  width: 30%;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #003366;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #002244;
+}
+
+@media screen and (max-width: 768px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
