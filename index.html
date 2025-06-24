@@ -1,51 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Architect_My Project</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <div class="logo">
-      <img src="assets/logo.png" alt="My Architect_My Project Logo">
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="cadastro.html">Cadastro</a></li>
-        <li><a href="login.html">Login</a></li>
-      </ul>
-    </nav>
+    <h1>My Architect_My Project</h1>
+    <p>Avenida Arapongas n°150 - Arapongas/PR - CEP 86700100</p>
   </header>
 
   <main>
-    <section class="hero">
-      <h1>Bem-vindo ao My Architect_My Project</h1>
-      <p>Ferramentas de auxílio para arquitetos e engenheiros civis. Encontre modelos de projetos prontos para clientes.</p>
-    </section>
-
-    <section class="services">
-      <h2>Serviços</h2>
-      <div class="service">
-        <h3>Arquitetos</h3>
-        <p>Acesse modelos de projetos e ferramentas específicas para arquitetos.</p>
-      </div>
-      <div class="service">
-        <h3>Engenheiros Civis</h3>
-        <p>Encontre soluções práticas e ferramentas para engenheiros civis.</p>
-      </div>
-      <div class="service">
-        <h3>Clientes</h3>
-        <p>Explore projetos prontos e escolha o que melhor se adequa às suas necessidades.</p>
-      </div>
-    </section>
+    <div class="box">
+      <h2>Bem-vindo!</h2>
+      <p>Escolha uma opção:</p>
+      <button onclick="abrirLogin()">Login</button>
+      <button onclick="abrirCadastro()">Cadastro</button>
+    </div>
   </main>
 
   <footer>
-    <p>Endereço: Avenida Arapongas n 150 - Arapongas-PR, CEP 86700100</p>
+    <p>&copy; 2025 My Architect_My Project</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
