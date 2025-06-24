@@ -1,88 +1,54 @@
-/* Resetando algumas configurações básicas */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: Arial, sans-serif;
-  background-color: #fff;
-  color: #333;
+  margin: 0;
+  background-color: #ffffff;
+  color: #003366;
 }
 
 header {
-  background-color: #003366; /* Azul marinho */
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-}
-
-header nav ul {
-  list-style: none;
-}
-
-header nav ul li {
-  display: inline;
-  margin: 0 10px;
-}
-
-header nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.hero {
   background-color: #003366;
   color: white;
   text-align: center;
-  padding: 50px 20px;
-}
-
-.services {
-  display: flex;
-  justify-content: space-around;
-  padding: 40px;
-  text-align: center;
-}
-
-.service {
-  width: 30%;
   padding: 20px;
-  background-color: #f4f4f4;
-  border-radius: 8px;
 }
 
-footer {
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.box {
   text-align: center;
-  padding: 10px;
-  background-color: #003366;
-  color: white;
+  border: 2px solid #003366;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 90%;
 }
 
 button {
-  padding: 10px 20px;
   background-color: #003366;
   color: white;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  padding: 12px 20px;
+  margin: 10px;
   font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 button:hover {
-  background-color: #002244;
+  background-color: #005999;
 }
 
-@media screen and (max-width: 768px) {
-  .services {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .service {
-    width: 80%;
-    margin-bottom: 20px;
-  }
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
